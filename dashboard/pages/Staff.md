@@ -12,7 +12,7 @@ FROM sakila.staff_performance
     <Column id=full_name title="Staff Member" />
     <Column id=total_revenue title="Total Revenue" fmt=currency />
     <Column id=number_of_payments title="Transactions Handled" />
-    <Column id=average_revenue_per_payment title="Avg. Deal Size" fmt=currency />
+    <Column id=average_revenue_per_payment title="Avg. revenue per sale" fmt=currency />
 </DataTable>
 
 
@@ -39,6 +39,10 @@ WHERE staff_id = '2';
         title="Mike's Average Sale"
     />
     </Grid>
+
+
+### Revenue Delta between Staff Members
+
 
 
 ## Revenue leaderboard

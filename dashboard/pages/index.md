@@ -13,7 +13,6 @@ FROM sakila.revenue
     icon="dollar-sign" 
     color="green" />
 
-```https://docs.evidence.dev/components/data/big-value```
 
 ### Total Rentals and Customers
 
